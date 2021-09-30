@@ -11,6 +11,11 @@ Program został przygotowany jako projekt zaliczeniowy na studia. Pozwala on na 
 - Wysyłanie pliku do wybranego hosta - skrypt "Wysylanie"
 - Wznawianie przesyłania pliku w przypadku przerwania – skrypt "WznawianiePrzesylania"
 - Ściąganie różnych części tego samego pliku z wielu hostów jednocześnie – skrypt "Pobieranie od wielu"
+
+# Demo
+### Pobieranie od wielu
+![](demo/fsDemo.gif)
+
 # Komunikacja między klientami
 ### Komenda "FileInfo" - służy do pobierania od drugiego klienta informacji o jakimś pliku (suma kontrolna i wielkość).
 Klient1 wysyła do klienta2 żądanie FileInfo a następnie nazwę pliku. Przykładowo:
